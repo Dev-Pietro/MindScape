@@ -487,7 +487,7 @@ const scenes = [
             { name: "Yasmin", image: "../img/characters/Provisorio/nada.png" }
         ],
         choices: [
-            { text: "Dormir", nextScene: "" }, //fazer depois
+            { text: "Dormir", nextChapter: "cap5(limiar).html"}, //fazer depois
             { text: "Não dormir", nextChapter: "cap5(limiar).html"}
         ]
     },
