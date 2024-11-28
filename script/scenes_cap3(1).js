@@ -88,7 +88,7 @@ const scenes = [
       id: 8,
       speaker: "Yasmin - Pensamento",
       text: "Karen estava sentada perto da quadra, mexendo no celular. Meu coração acelerava a cada passo que me aproximava dela.",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando4.png" },
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra2.png" }
@@ -101,7 +101,7 @@ const scenes = [
       id: 9,
       speaker: "Yasmin - Pensamento",
       text: "Quando cheguei perto o suficiente, ela levantou o olhar, surpresa com a minha presença.",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando4.png" },
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra2.png" }
@@ -114,7 +114,7 @@ const scenes = [
       id: 10,
       speaker: "Yasmin",
       text: "Karen, a gente precisa conversar.",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando3.png" },
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra2.png" }
@@ -127,7 +127,7 @@ const scenes = [
       id: 11,
       speaker: "Karen",
       text: "Agora?",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra1.png" },
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando3.png" }
@@ -140,7 +140,7 @@ const scenes = [
       id: 12,
       speaker: "Yasmin",
       text: "Depois da aula. É importante.",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando3.png" },
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra1.png" }
@@ -153,7 +153,7 @@ const scenes = [
       id: 13,
       speaker: "Karen",
       text: "Tudo bem. Nos encontramos na saída, pode ser?",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra1.png" },
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando3.png" }
@@ -166,7 +166,7 @@ const scenes = [
       id: 14,
       speaker: "Yasmin - Pensamento",
       text: "Assenti rapidamente, tentando não parecer tão ansiosa. Afastei-me antes que ela pudesse perguntar mais alguma coisa.",
-      background: "../img/background/corredorescola.png", //imagem a ser gerada
+      background: "../img/background/corredorescola.jpeg",
       characters: [
         { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falando3.png" },
         { name: "Karen", image: "../img/characters/Karen/Karen_neutra2.png" }
