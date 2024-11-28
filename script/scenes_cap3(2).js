@@ -145,7 +145,7 @@ const scenes = [
         { name: "Jonathan", image: "../img/characters/Jonathan/jonathan-semreacao2.png" }
       ],
       choices: [
-        { text: "Será que ele está interessado nela! Vou deixar eles sozinhos (ignorá-los)", nextChapter: 13 }, //Rota do mentira 1 persuadir (dps troca de tiver tempo) hoje n é o dia!!!!!!
+        { text: "Será que ele está interessado nela! Vou deixar eles sozinhos (ignorá-los)", nextScene: 13 }, //Rota do mentira 1 persuadir (dps troca de tiver tempo) hoje n é o dia!!!!!!
         { text: "Que estranho, eles geralmente não ficam tão próximos assim (confrontá-los)", nextScene: 13 } //Rota da mentira 2 persuadir 
       ]
     },
