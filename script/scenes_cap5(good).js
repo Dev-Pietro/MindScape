@@ -62,7 +62,7 @@ const scenes = [
         background: "../img/background/salaescola2.jpeg",
         characters: [
          { name: "Diretor",  image: "../img/characters/Diretor/diretor-serio.png"}, 
-         { name: "Yasmin", image: "../img/characters/Policial/policial.jpg" },
+          { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-neutra1.png" }
         // { name: "Policial", image: "../img/characters/Provisorio/provisorio.jpg"}
           
         ],
