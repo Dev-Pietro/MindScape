@@ -63,7 +63,7 @@ h2, h3, h4, h5, p {
 }
 
 #show-out {
-    animation: show 3s ease-in, out 2s ease-out 15s forwards;
+    animation: show 3s ease-in, out 2s ease-out 12s forwards;
 }
 
 #show {
@@ -95,7 +95,7 @@ h2, h3, h4, h5, p {
 .loading {
     height: 2%;
     width: 75%;
-    animation: loadingAnimation 17s ease-in-out;
+    animation: loadingAnimation 14s ease-in-out;
 }
 
 @keyframes loadingAnimation {
