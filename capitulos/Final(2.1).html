@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" type="text/css" href="../style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="show">
+        <h1>Yasmin Desistiu.</h1> <!--Fala emblemática-->
+        <h2>...</h2> <!--coloquei porque achei bonito-->
+        <div id="subMessage"></div>
+        <button class="btn-choice" id="restartButton" style="display: none;">Jogar Novamente</button>
+    </div>
+
+    <script>
+        const subMessage = document.getElementById('subMessage');
+        const restartButton = document.getElementById('restartButton');
+
+        const text = "Com medo das consequências das suas possíveis escolhas Yasmin decidiu não intervir nos assuntos do culto, assim com medo de que o que Karen tenha falado se torne realidade, ela decidiu desistir."; //texto motivador falando do porque ocorreu aquele final
+        let index = 0;
+
+        function typeWriter() {
+            if (index < text.length) {
+                subMessage.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, 50);
+            } else {
+                restartButton.style.display = 'block';
+            }
+        }
+
+        restartButton.addEventListener('click', () => {
+            window.location.href = '../index.html'; // Altere para o nome do arquivo da página inicial
+        });
+
+        typeWriter();
+    </script>
+</body>
+</html>

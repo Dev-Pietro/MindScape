@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitulo 2 - Pesadelo Tangível</title>
+    <link rel="stylesheet" type="text/css" href="../style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <script type="text/javascript" src="../script/frases-aleatorias.js"></script>
+</head>
+<body>
+    <div class="container" id="show-out">
+        <h1>Capitulo 2</h1>
+        <h2>Pesadelo Tangível</h2>
+        <p id="falaAleatoria" style="padding-top: 20vh;"></p>
+        <div class="loading"></div>
+    </div>   
+    <script>
+        document.getElementById("falaAleatoria").innerText = getRandomElement();
+
+        document.getElementById("show-out").addEventListener("animationend", function(event) {
+            if (event.animationName === "out") {
+                document.getElementById("game-container").style.display = "block";
+            }
+        });
+    </script>
+
+    <div id="game-container">
+        <div id="background"></div>
+        <div id="character-container"></div>    
+        <div id="quick-time">
+        </div>
+        <div id="dialogue-box">
+            <p id="speaker-name"></p>
+            <p id="dialogue-text"></p>
+            <div id="choices"></div>
+        </div>
+    </div>
+    <!-- Botão hambúrguer -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu" id="menu">
+        <div class="logomenu"><a href="../index.html"><img src="../img/logo.png" class="logomenu"></a></div>
+        <ul>
+            <li><button id="save-game" class="btn-menu-save">Salvar Progresso</button></li>
+            <li><button id="load-game" class="btn-menu-save">Carregar Progresso</button></li>
+            <li><a href="../config.html">Configurações</a></li>
+            <li><a href="../sobre.html">Sobre Nós</a></li>
+        </ul>
+    </div>
+
+    <script>
+        // Referências aos elementos
+        const hamburger = document.getElementById('hamburger');
+        const menu = document.getElementById('menu')
+
+        // Alternar estado do menu
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            menu.classList.toggle('open');
+        });
+    </script>
+
+    <script type="text/javascript" src="../script/scenes_cap2.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações</title>
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="head-config">
+        <img src="img/icon_config.png" style="width: 15vh; height: 15vh;">
+    </div>
+    <div class="main-config">
+        <a href="index.html"><img src="img/icon_back.png" style="width: 8vh; height: 8vh;"></a>
+        <div class="box-config">
+            <div class="velo-digi">
+                <label for="text-speed" class="label-config">Velocidade de Texto:</label>
+                <input type="range" id="text-speed" min="10" max="200" value="50">
+                <span id="speed-value">50ms</span>
+            </div>
+            <div class="tamanho-texto">
+                <label for="font-size">Tamanho do Texto:</label>
+                <input type="range" id="font-size" min="12" max="24" value="18">
+                <span id="font-size-value">18px</span>
+            </div>
+            <div><button id="save-settings" class="btn-config" style="margin-top: 5vh;">Salvar Configurações</button></div>
+        </div>   
+    </div>
+
+    <script src="../MindScape/script/config.js"></script>
+</body>
+</html>
