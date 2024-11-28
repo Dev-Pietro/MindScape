@@ -5,7 +5,7 @@ const scenes = [
         text: "Embora me sinta ansiosa, é isso o que preciso fazer.",
         background: "../img/background/frenteescola.jpeg",
         characters: [
-          { name: "Yasmin", image: "../img/characters/Provisorio/yasmin-neutra1.png" }
+          { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-neutra1.png" }
         ],
         choices: [
           { text: "Próximo", nextScene: 2 }
@@ -18,7 +18,7 @@ const scenes = [
         background: "../img/background/salaescola1.jpeg",
         characters: [
           { name: "Yasmin",   image: "../img/characters/Yasmin/yasmin-neutra1.png" },
-          { name: "Policial", image: "../img/characters/Policial/ policial.jpg"},
+          //{ name: "Policial", image: "../img/characters/Policial/policial.png"},
           { name: "Diretor",  image: "../img/characters/Diretor/diretor-serio.png"}
         ],
         choices: [
@@ -33,7 +33,7 @@ const scenes = [
         characters: [
          { name: "Diretor",  image: "../img/characters/Diretor/diretor-serio.png"}, 
          { name: "Yasmin", image: "../img/characters/Provisorio/nada.png" },
-         { name: "Policial", image: "../img/characters/Policial/policial.jpg"}
+         //{ name: "Policial", image: "../img/characters/Policial/policial.jpg"}
           
         ],
         choices: [
@@ -47,7 +47,7 @@ const scenes = [
     background: "../img/background/salaescola2.jpeg",
     characters: [
       { name: "Yasmin",   image: "../img/characters/Yasmin/yasmin-neutra1.png" },
-      { name: "Policial", image: "../img/characters/Policial/policial.jpg"},
+     // { name: "Policial", image: "../img/characters/Policial/policial.jpg"},
       { name: "Diretor",  image: "../img/characters/Diretor/diretor-serio.png"}
       
     ],
@@ -63,7 +63,7 @@ const scenes = [
         characters: [
          { name: "Diretor",  image: "../img/characters/Diretor/diretor-serio.png"}, 
          { name: "Yasmin", image: "../img/characters/Policial/policial.jpg" },
-         { name: "Policial", image: "../img/characters/Provisorio/provisorio.jpg"}
+        // { name: "Policial", image: "../img/characters/Provisorio/provisorio.jpg"}
           
         ],
         choices: [
@@ -77,7 +77,7 @@ const scenes = [
         background: "../img/background/salaescola2.jpeg",
         characters: [
         { name: "Yasmin",   image: "../img/characters/Yasmin/yasmin-neutra1.png" },
-        { name: "Policial", image: "../img\characters\Policialpolicial.jpg"},
+       // { name: "Policial", image: "../img\characters\Policialpolicial.jpg"},
         { name: "Diretor",  image: "../img/characters/Diretor/diretor-serio.png"}
           
         ],
