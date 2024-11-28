@@ -796,7 +796,7 @@ id: 60,
   text: "Eu preciso resolver umas coisas aqui na escola. Fica bem, tá?",
   background: "../img/background/frenteescolaantesportas.jpeg", //verificar o que o durães usou de cenário no ROSA
   characters: [
-    { name: "Karen", image: "../img/characters/Karen/yasmin-falandoesurpresa.png" }
+    { name: "Karen", image: "../img/characters/Karen/Karen_neutra2.png" }
   ],
   choices: [
     { text: "Próximo", nextScene: 65 }
