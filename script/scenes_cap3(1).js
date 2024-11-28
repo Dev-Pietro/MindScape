@@ -811,7 +811,7 @@ id: 60,
     { name: "Yasmin", image: "../img/characters/Yasmin/yasmin-falandoesurpresa.png" }
   ],
   choices: [
-    { text: "Próximo", nextScene: 66 }
+    { text: "Próximo", nextScene: 67}
   ]
 },
 {
